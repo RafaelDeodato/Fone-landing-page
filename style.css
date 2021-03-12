@@ -154,6 +154,7 @@ section{
 .price{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 button{
@@ -240,6 +241,14 @@ footer{
     margin: 10px 0;
     font-size: 15px;
     width: 200px;
+  }
+
+  .title{
+    font-size: 20px;
+  }
+
+  button{
+    padding: 10px 20px;
   }
 
 }
