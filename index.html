@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,81 @@
   <link rel="stylesheet" href="fontawesome/css/all.css">
   <title>Fone Landing Page</title>
 </head>
+
 <body>
   <header>
     <img src="img/logo.svg" class="logo">
 
     <nav class="center-menu">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Support</a></li>
+        <li><a href="#" class="link-effect">Home</a></li>
+        <li><a href="#" class="link-effect">About</a></li>
+        <li><a href="#" class="link-effect">Products</a></li>
+        <li><a href="#" class="link-effect">Support</a></li>
       </ul>
     </nav>
 
     <nav class="right-menu">
-      <ul> 
+      <ul>
         <li><a href="#"><i class="fas fa-search"></i></a></li>
         <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-        <li><a href="#"><i class="fas fa-bars"></i></a></li>
+        <li><a href="#" class="dropdown"><i class="fas fa-bars"></i></a></li>
       </ul>
     </nav>
   </header>
+
+  <section>
+    <div class="slider-menu">
+      <div class="preview-next"></div>
+      <div class="item-focus"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="preview-next"></div>
+    </div>
+    <div class="product">
+      <div class="image">
+        <img src="img/fone.png">
+      </div>
+      <div class="product-description">
+        <div>
+          <h1>HYPER X ON-EAR</h1>
+          <p class="bold">Wireless over-ear headphones</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            4.2 (335)
+          </div>
+          <p class="bold">Driver unit</p>
+          <p class="light">70 mm, dome type (CCAW Voice Col)</p>
+          <p class="bold">Frequency Response</p>
+          <p class="light">4 Hz + 100.000 Hz</p>
+          <div class="price">
+            <p class="bold title">$89,99</p>
+            <button>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-items">
+      <div>
+        <i class="fas fa-volume-up"></i>
+        <p>High-Resolution Audio compatible</p> 
+      </div>
+      <div>
+        <i class="fab fa-bluetooth-b"></i>
+        <p>Wireless connectivity using bluetooth</p>
+      </div>
+      <div>
+        <i class="fas fa-battery-empty"></i>
+        <p>A powerful battery that lasts up to 4 hours of use</p>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
